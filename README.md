@@ -16,9 +16,6 @@
 
 [![skills.sh](https://www.skills.sh/b/runapi-ai/veo-3.1)](https://www.skills.sh/runapi-ai/veo-3.1/veo-3.1)
 [![ClawHub](https://img.shields.io/badge/ClawHub-runapi--veo--3--1-111827)](https://clawhub.ai/runapi-ai/runapi-veo-3-1)
-[![Model Reference](https://img.shields.io/badge/Model%20Reference-runapi.ai-0f766e)](https://runapi.ai/models/veo-3.1)
-[![RunAPI CLI](https://img.shields.io/badge/RunAPI-CLI-111827)](https://github.com/runapi-ai/cli)
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-skills.sh-2563eb)](https://www.skills.sh/runapi-ai)
 [![License](https://img.shields.io/github/license/runapi-ai/veo-3.1)](https://github.com/runapi-ai/veo-3.1/blob/main/LICENSE)
 
 </div>
