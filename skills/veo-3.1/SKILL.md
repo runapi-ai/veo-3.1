@@ -4,6 +4,17 @@ description: Generate videos with Veo 3.1 text-to-video, extend-video, and upsca
 documentation: https://runapi.ai/models/veo-3.1
 provider_page: https://runapi.ai/providers/google
 catalog: https://runapi.ai/models
+metadata:
+  openclaw:
+    homepage: https://runapi.ai/models/veo-3.1
+    primaryEnv: RUNAPI_API_KEY
+    requires:
+      env:
+      - RUNAPI_API_KEY
+    envVars:
+    - name: RUNAPI_API_KEY
+      required: true
+      description: RunAPI API key from https://runapi.ai/api_keys.
 ---
 # @runapi.ai/veo-3-1 — RunAPI.ai Veo 3.1 video generation
 

@@ -1,5 +1,7 @@
 # Veo 3 API Skill for RunAPI
 
+[![skills.sh](https://skills.sh/b/runapi-ai/veo-3.1)](https://skills.sh/runapi-ai/veo-3.1)
+
 Generate video with Veo 3 and Veo 3 Fast text-to-video. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate Veo 3 through RunAPI.
 
 The canonical agent file is `skills/veo-3.1/SKILL.md`.
