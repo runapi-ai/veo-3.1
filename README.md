@@ -12,7 +12,18 @@ The canonical agent file is `skills/veo-3.1/SKILL.md`.
 npx skills add runapi-ai/veo-3.1 -g
 ```
 
-Or manually: clone this repo and copy `skills/veo-3.1/` into your agent's skills directory.
+Or paste this prompt to your AI agent:
+
+```text
+Install the veo-3.1 skill for me:
+
+1. Clone https://github.com/runapi-ai/veo-3.1
+2. Copy the skills/veo-3.1/ directory into your
+   user-level skills directory (e.g. ~/.claude/skills/
+   for Claude Code, ~/.codex/skills/ for Codex).
+3. Verify that SKILL.md is present.
+4. Confirm the install path when done.
+```
 
 ## Quick example
 
