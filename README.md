@@ -1,6 +1,23 @@
-# Veo 3 API Skill for RunAPI
+<p align="center">
+  <a href="https://github.com/runapi-ai/veo-3.1">
+    <h3 align="center">Veo 3 API Skill for RunAPI</h3>
+  </a>
+</p>
+
+<p align="center">
+  Install this agent skill, inspect Veo 3 fields, then run jobs through the RunAPI CLI.
+</p>
+
+<p align="center">
+  <a href="https://runapi.ai/models/veo-3.1.md"><strong>Model Reference</strong></a> · <a href="https://skills.sh/runapi-ai/veo-3.1"><strong>Install Skill</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/veo-3.1-sdk"><strong>SDK</strong></a>
+</p>
+
+<div align="center">
 
 [![skills.sh](https://skills.sh/b/runapi-ai/veo-3.1)](https://skills.sh/runapi-ai/veo-3.1)
+
+</div>
+<br/>
 
 Generate video with Veo 3 and Veo 3 Fast text-to-video. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate Veo 3 through RunAPI.
 
