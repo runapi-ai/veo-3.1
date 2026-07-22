@@ -36,7 +36,7 @@ Generate and edit video with Veo 3 through RunAPI. The default path for one-off 
 When integrating Veo 3 into an app, backend, worker, library, Rails service, Node service, Go service, webhook pipeline, or production workflow, start by checking the current SDK package and official usage. Confirm install commands, client methods (`create`, `get`, `run`), request fields, response shape, and error classes before using CLI help or raw HTTP examples. Use a RunAPI SDK package:
 
 - JavaScript / TypeScript: `@runapi.ai/veo-3.1`
-- Ruby: `runapi-veo_3_1`
+- Ruby: `runapi-veo-3.1`
 - Go: `github.com/runapi-ai/veo-3.1-sdk/go`
 
 ## CLI path
@@ -67,6 +67,8 @@ Available commands: `text-to-video`, `extend-video`, `upscale-video`.
 
 For `text-to-video`, request JSON may include `duration_seconds` with `4`, `6`, or `8` seconds. Omit it to use the default.
 
+Use `veo-3.1-lite` for high-volume 720p generation. Lite supports text, first/last frame, and reference requests, but does not accept `seeds` or `auto`; reference requests must use `16:9` and 8 seconds. Extend only completed `veo-3.1` Quality or `veo-3.1-fast` source tasks. The source task determines the continuation tier automatically, and Lite sources cannot be extended.
+
 ## Generated file storage
 
 RunAPI-generated file URLs are temporary. Download and store generated images, videos, audio, or other files in your own durable storage within 7 days; do not treat returned URLs as long-term assets.
@@ -81,3 +83,4 @@ RunAPI-generated file URLs are temporary. Download and store generated images, v
 
 - [Veo 3.1](https://runapi.ai/models/veo-3.1/veo-3.1.md)
 - [Veo 3 fast](https://runapi.ai/models/veo-3.1/fast.md)
+- [Veo 3 Lite](https://runapi.ai/models/veo-3.1/lite.md)

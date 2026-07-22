@@ -1,5 +1,14 @@
 # Changelog
 
+## [v0.2.8](https://github.com/runapi-ai/veo-3.1/releases/tag/v0.2.8) - 2026-07-22
+
+### Added
+- Document Veo 3.1 Lite generation modes and request constraints.
+
+### Changed
+- Document source-derived Quality and Fast video extension behavior.
+
+
 ## [v0.2.7](https://github.com/runapi-ai/veo-3.1/releases/tag/v0.2.7) - 2026-06-18
 
 ### Changed
