@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.2.9](https://github.com/runapi-ai/veo-3.1/releases/tag/v0.2.9) - 2026-08-10
+
+### Changed
+- Complete marketplace distribution for the RunAPI Veo 3.1 skill.
+
+
 ## [v0.2.8](https://github.com/runapi-ai/veo-3.1/releases/tag/v0.2.8) - 2026-07-22
 
 ### Added
